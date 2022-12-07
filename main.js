@@ -1,16 +1,13 @@
 addEventListener("DOMContentLoaded", ()=>{
-   // 19. Un estudiante realiza cuatro exámenes. Realizar el pseudocódigo que representen el algoritmo
-    // correspondiente para obtener el promedio de las calificaciones obtenidas. las calificaciones van 1 a 5
-    // puntos.    
-    let nota1 = Number(prompt(`Ingrese el valor de la primera nota`));
-    let nota2 = Number(prompt(`Ingrese el valor de la segunda nota`));
-    let nota3 = Number(prompt(`Ingrese el valor de la tercera nota`));
-    let nota4 = Number(prompt(`Ingrese el valor de la cuarta nota`));
-    let prom = (nota1+nota2+nota3+nota4)/4;
-    if (prom<3) {
-         console.log(`No aprobo`)
-    }
-     if (prom>3) {
-         console.log (`Aprobado`)
-     }
+// 20. Se requiere calcular la distancia entre dos puntos, realizar el código que permita hallar la solución,
+    // por favor utilizar funciones matemáticas de Python para ello
+    // d = rc((x2-x1)^2 + (y2-y1)^2)
+
+    let rc = Number(prompt(`Ingrese el valor de rc`));
+    let x1 = Number(prompt(`Ingrese el valor de X1`))
+    let x2 = Number(prompt(`Ingrese el valor de x2`))
+    let y1 = Number(prompt(`Ingrese el valor de y1`))
+    let y2 = Number(prompt(`Ingrese el valor de y1`))
+    let d =  rc*((x2-x1)^2 + (y2-y1)^2)
+    console.log(`El resultado es ${d}`); 
 })
