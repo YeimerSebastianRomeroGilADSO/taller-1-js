@@ -1,9 +1,13 @@
 addEventListener("DOMContentLoaded", ()=>{
-     // 2. Escribir un programa que calcule el área de un rectángulo:
-        // lado1 = 3 lado2 = 4 área del rectángulo= lado1 * lado2
-        let num1= Number(prompt('Ingrese el numero 1', 3));
-        let num2= Number(prompt('Ingrese el numero 2', 4));
-        console.log(`El área del 'rectángulo' es: ${num1} * ${num2} = ${num1 * num2}`);
+     // 3. Un programa que lea 4 números y calcule la media. 
+    // Media= (num1 + num2 + num3 + num4)/4 
+    let num1 = Number(prompt(`Ingrese el numero 1`, 1));
+    let num2 = Number(prompt(`Ingrese el numero 2`, 2));
+    let num3 = Number(prompt(`Ingrese el numero 3`, 3));
+    let num4 = Number(prompt(`Ingrese el numero 4`, 4));
+    let media = (num1+num2+num3+num4)/4;
+    console.log(`La media se calcula con la siguiente formula (${num1} + ${num2} + ${num3} + ${num4}) / 4  `)
+    console.log(`El promedio es: ${media}`)
 
 
 })
