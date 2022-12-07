@@ -1,8 +1,7 @@
 addEventListener("DOMContentLoaded", ()=>{
-    // 12. Programa que muestre el pago de una llamada telefónica sabiendo que cada minuto cuesta $355
-    // pesos y un IVA de 20%.
-    let valorMin = 355+(355*0.20)
-    let canMin = Number(prompt(`Ingrese la cantidad de minutos gastados`)) 
-    let formula = valorMin * canMin
-    console.log(`El valor a pagar por los minutos consumindos es ${formula}`);
+   // 13. Realice un algoritmo que a partir de proporcionarle la velocidad de un automóvil expresada en
+    // kilómetros por hora, proporcione la velocidad en metros por segundos.
+    let km = Number(prompt(`Ingrese los kilometros que desea convertir a ms`))
+    let conversion = km*0.2778
+    console.log(`el valor en kilomtros sobre segundos es de ${conversion}`); 
 })
