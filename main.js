@@ -1,9 +1,8 @@
 addEventListener("DOMContentLoaded", ()=>{
-    // 11. Escribir un programa que calcule el volumen de un elipsoide
-// V = (4/3) * PI * a * b *c
-let A = Number(prompt('Ingrese el valor del termino A'))
-let B = Number(prompt('Ingrese el valor del termino B'))
-let C = Number(prompt('Ingrese el valor del termino C'))
-let formula = ((4/3)*Math.PI*A*B*C) 
-console.log(`El resultado de (4/3)*(${Math.PI})*(${A})*(${B})*(${C}) es ${formula}`);
+    // 12. Programa que muestre el pago de una llamada telefónica sabiendo que cada minuto cuesta $355
+    // pesos y un IVA de 20%.
+    let valorMin = 355+(355*0.20)
+    let canMin = Number(prompt(`Ingrese la cantidad de minutos gastados`)) 
+    let formula = valorMin * canMin
+    console.log(`El valor a pagar por los minutos consumindos es ${formula}`);
 })
