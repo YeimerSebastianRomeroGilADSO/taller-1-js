@@ -1,7 +1,8 @@
 addEventListener("DOMContentLoaded", ()=>{
-   // 13. Realice un algoritmo que a partir de proporcionarle la velocidad de un automóvil expresada en
-    // kilómetros por hora, proporcione la velocidad en metros por segundos.
-    let km = Number(prompt(`Ingrese los kilometros que desea convertir a ms`))
-    let conversion = km*0.2778
-    console.log(`el valor en kilomtros sobre segundos es de ${conversion}`); 
+    // 14. Una farmacia aplica al precio de los remedios el 10% de descuento, hacer un programa que
+    // ingresando el costo de los medicamentos calcules el descuento y el precio final.
+
+    let precio = Number(prompt(`Ingrese el valor del medicamento`))
+    let desc = precio-(precio*0.10)
+    console.log(`El valor del medicamento con el descuento del 10% es de ${desc}`);
 })
